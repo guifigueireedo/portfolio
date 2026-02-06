@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Figueiredo - Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-glow"></div>
+
+    <header id="navbar">
+        <nav>
+            <div class="nav-social-icons">
+                <a href="https://www.instagram.com/guifigueireedo/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/guifigueireedo" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/guifigueireedo/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:arthur.gsf07@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#history">História</a></li>
+                <li><a href="#academic">Acadêmico</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content fade-in">
+                <p class="greeting-wrapper">
+                    <span id="typing-greeting"></span><span class="typing-cursor">|</span>
+                </p>
+                
+                <h1 class="glitch-text" data-text="Seu Nome Aqui">Arthur Figueiredo</h1>
+                <h2 class="typing-effect">Desenvolvedor <span class="highlight">Back-End</span></h2>
+                
+                <div class="hero-btns">
+                    <a href="CV_Arthur_Figueiredo.pdf" target="_blank" class="btn btn-primary">Ver Currículo <i class="fa-solid fa-download" style="margin-left: 8px; font-size: 0.9em;"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">Sobre <span class="neon-text">Mim</span></h2>
+                <div class="about-content scroll-reveal">
+                    <div class="about-text">
+                        <p>Tenho 18 anos, moro em Olinda-PE, e sou um estudante no 3º período de ADS pela UniFAFIRE. o meu foco é a programação back-end, com certificados de Desenvolvedor Python e cursos online de Java. Usar a programação pra fazer soluções inovadoras, como o LimpAttack, me fascina, e pra mim é uma forma de utilizar do meu conhecimento para melhorar o mundo em que vivemos.</p>
+                        <p>Me formei no ensino médio em 2022, com um curso de técnico em informática pelo Senac Paulista, onde tive aprendizado de Montagem e Manutenção de Computadores, obtive conhecimento de Redes e Comunicações, e também aprendi os primeiros passos de Desenvolvimento Web com HTML e CSS, onde me destaquei com o projeto SkillShare, onde durgiu minha vontade de criar soluções e projetos com a programação.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Meus <span class="neon-text">Projetos</span></h2>
+                <div class="projects-grid">
+                    <div class="project-card scroll-reveal">
+                        <div class="card-content">
+                            <h3>LimpAttack</h3>
+                            <p>Educação gamificada com o objetivo de incentivar bons hábitos de higiene na infância</p>
+                            <p style="margin-top: 5px;">1° lugar na classificação de projetos</p>
+                            <div class="tech-stack">
+                                <span>Python</span>
+                            </div>
+                            <a href="https://limpattack.netlify.app/" class="btn-link">Ver Site <i class="fa-solid fa-globe"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card scroll-reveal" style="transition-delay: 100ms;">
+                        <div class="card-content">
+                            <h3>Córtex</h3>
+                            <p>Gerenciamento de estoque, recebimento e distribuição de itens para institutos beneficentes</p>
+                            <p style="margin-top: 5px;">Feito para Globo & Rec'n'Play</p>
+                            <div class="tech-stack">
+                                <span>Python</span><span>IA</span>
+                            </div>
+                            <a href="https://github.com/BrunoBMayer/Globo-Challenge-" class="btn-link">Ver Código <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card scroll-reveal" style="transition-delay: 200ms;">
+                        <div class="card-content">
+                            <h3>Benevo</h3>
+                            <p>Gerenciamento de estoque, recebimento e distribuição de itens para institutos beneficentes</p>
+                            <p style="margin-top: 5px;">MVP testado com instituto real</p>
+                            <div class="tech-stack">
+                                <span>Java</span><span>MongoDB</span><span>HTML</span>
+                            </div>
+                            <a href="https://github.com/guifigueireedo/benevo-project" class="btn-link">Ver Código <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <!-- <div class="project-card scroll-reveal" style="transition-delay: 300ms;">
+                        <div class="card-content">
+                            <h3>EZCarreer</h3>
+                            <p>Site de criação de currículos individuais para vagas específicas com base em um currículo mestre</p>
+                            <p style="margin-top: 5px;">MVP funcional em evolução</p>
+                            <div class="tech-stack">
+                                <span>Python</span><span>IA</span><span>JavaScript</span>
+                            </div>
+                            <a href="#" class="btn-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="history" class="section">
+            <div class="container">
+                <h2 class="section-title">Minha <span class="neon-text">História</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item right scroll-reveal">
+                        <div class="timeline-content">
+                            <span class="date">2026 (em andamento)</span>
+                            <h3>Desenvolvedor Front-End Jr</h3>
+                            <p>Estudo aprofundado em tecnologias Front-End.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left scroll-reveal">
+                        <div class="timeline-content">
+                            <span class="date">2025</span>
+                            <h3>Desenvolvedor Back-End Jr</h3>
+                            <p>Criação de projetos reconhecidos. Especificação em Python, Java, SQL e IA pela UniFAFIRE.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right scroll-reveal">
+                        <div class="timeline-content">
+                            <span class="date">2024</span>
+                            <h3>Dev. de Aplicações</h3>
+                            <p>Primeira experiiência em programação. Funções de PO e Back-End e domínio em pitch pelo Senac.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left scroll-reveal">
+                        <div class="timeline-content">
+                            <span class="date">2023</span>
+                            <h3>Redes Computacionais</h3>
+                            <p>Aprimoramento de conhecimentos de tecnologia. Aprendizado de conexões de rede e servidores no Senac.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right scroll-reveal">
+                        <div class="timeline-content">
+                            <span class="date">2022</span>
+                            <h3>Manutenção de Computadores</h3>
+                            <p>Primeiro contato com tecnologia. Experiência prática na manutenção de hardware pelo Senac Paulista.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="academic" class="section">
+            <div class="container">
+                <h2 class="section-title">Formação <span class="neon-text">Acadêmica</span></h2>
+                <div class="academic-list">
+                    <div class="academic-item scroll-reveal">
+                        <i class="fa-solid fa-graduation-cap icon-neon"></i>
+                        <div class="academic-info">
+                            <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
+                            <p class="institution">Centro Universitário Faculdade Frassinetti do Recife</p>
+                            <span class="status">02/2025 - 07/2027 | Em andamento</span>
+                        </div>
+                    </div>
+                    <div class="academic-item scroll-reveal">
+                        <i class="fa-solid fa-certificate icon-neon"></i>
+                        <div class="academic-info">
+                            <h3>Curso Técnico Nivel Médio em Tecnologia da Informação</h3>
+                            <p class="institution">Serviço Nacional de Aprendizagem Comercial - Paulista</p>
+                            <span class="status">02/2022 - 12/2024 | Concluído</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiences" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title">Vivências & <span class="neon-text">Hackathons</span></h2>
+                <div class="experience-cards">
+                    <div class="xp-card scroll-reveal">
+                        <h3>Hackathon Global 2025</h3>
+                        <p>Vencedor na categoria Inovação com projeto de acessibilidade.</p>
+                    </div>
+                    <div class="xp-card scroll-reveal">
+                        <h3>Liderança Comunitária</h3>
+                        <p>Organizador de meetups locais sobre tecnologia e open-source.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates" class="section">
+            <div class="container">
+                <h2 class="section-title">Certificados & <span class="neon-text">Reconhecimentos</span></h2>
+                <div class="cert-grid">
+                    <div class="cert-item scroll-reveal">
+                        Inglês para TI 1
+                        <p>CISCO Network</p>
+                    </div>
+                    <div class="cert-item scroll-reveal">
+                        Melhor Impacto Educacional
+                        <p>UniFAFIRE</p>
+                    </div>
+                    <div class="cert-item scroll-reveal">
+                        Suporte e Manutenção de Computadores
+                        <p>Senac Paulista</p>
+                    </div>
+                    <div class="cert-item scroll-reveal">
+                        Operação de Redes Computacionais
+                        <p>Senac Paulista</p>
+                    </div>
+                    <div class="cert-item scroll-reveal">
+                        Desenv. de Aplicativos Computacionais
+                        <p>Senac Paulista</p>
+                    </div>
+                    <div class="cert-item scroll-reveal">
+                        Desenvolvedor Python Jr
+                        <p>UniFAFIRE</p>
+                    </div>
+                    <div class="cert-item scroll-reveal">
+                        Analista de Dados Jr
+                        <p>UniFAFIRE</p>
+                    </div>
+                    <div class="cert-item scroll-reveal">
+                        Challange 4.0 - 2025
+                        <p>Globo & Rec'n'Play</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="skills-wrapper">
+                    <div class="hard-skills">
+                        <h3 class="subtitle">Hard <span class="neon-text">Skills</span></h3>
+                        <div class="skill-bar-container scroll-reveal">
+                            <div class="skill-info">
+                                <span>Inglês</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-bar-container scroll-reveal">
+                            <div class="skill-info">
+                                <span>Italiano</span>
+                                <span>40%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 40%"></div></div>
+                        </div>
+                        <div class="skill-bar-container scroll-reveal">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 50%"></div></div>
+                        </div>
+                        <div class="skill-bar-container scroll-reveal">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-bar-container scroll-reveal">
+                            <div class="skill-info">
+                                <span>HTML / CSS</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-bar-container scroll-reveal">
+                            <div class="skill-info">
+                                <span>SQL / NoSQL</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-bar-container scroll-reveal">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 60%"></div></div>
+                        </div>
+                        <div class="skill-bar-container scroll-reveal">
+                            <div class="skill-info">
+                                <span>Git / GitHub</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-bar-container scroll-reveal">
+                            <div class="skill-info">
+                                <span>Pacote Office</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-bar-container scroll-reveal">
+                            <div class="skill-info">
+                                <span>Trello</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 70%"></div></div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="soft-skills">
+                        <h3 class="subtitle">Soft <span class="neon-text">Skills</span></h3>
+                        <div class="tags-cloud scroll-reveal">
+                            <span class="tag">Scrum</span>
+                            <span class="tag">Trabalho em Equipe</span>
+                            <span class="tag">Kanban</span>
+                            <span class="tag">Organização e Planejamento</span>
+                            <span class="tag">Análise de Requisitos</span>
+                            <span class="tag">Adaptabilidade</span>
+                            <span class="tag">Comunicação Corporativa</span>
+                            <span class="tag">Liderança</span>
+                            <span class="tag">Proatividade</span>
+                            <span class="tag">Modelagem de Dados</span>
+                            <span class="tag">Inteligência Emocional</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Desenvolvido com <i class="fa-solid fa-code"></i> e Inovação.</p>
+            <div class="socials">
+                <a href="https://www.instagram.com/guifigueireedo/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/guifigueireedo" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/guifigueireedo/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:seuemail@exemplo.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
