@@ -409,6 +409,10 @@ nav {
     margin-bottom: 15px;
 }
 
+.xp-card p {
+    margin-bottom: 15px;
+}
+
 /* --- Acadêmico & Skills --- */
 .academic-list {
     display: grid;
